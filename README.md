@@ -1,4 +1,5 @@
 **Binary Semantic Segmentation-UNet style**  
+  
 U-Net style Binary Semantic Segmentation model for Forest Cover Dataset
 
 This is a simple implementation of a U-net style segmentation architecture as per the "U-Net: Convolutional Networks for Biomedical Image Segmentation
@@ -8,7 +9,7 @@ This model was tested on the forest cover dataset as mentioned below.
 Some parameters and architecture have been slightly modified to suit this dataset.
 
 Dataset:  
-A version of "DeepGlobe 2018: A Challenge to Parse the Earth Through Satellite Images" was obtained from kaggle here:
+A version of "DeepGlobe 2018: A Challenge to Parse the Earth Through Satellite Images" was obtained from kaggle here:  
 https://www.kaggle.com/datasets/quadeer15sh/augmented-forest-segmentation
 
 Challenges:  

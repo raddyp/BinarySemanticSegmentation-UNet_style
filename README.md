@@ -35,18 +35,21 @@ Code Description:
 
 Files:  
 1. Semantic_segmentation.py - implementation of the U-Net style segemntation model
-2. acc.png - Training & validation accuracy plot
-3. loss.png - Training & validation loss plot
-4. model_sumamry.txt - Model summary
-5. epochs.txt - Training epochs data
+2. model_summary.txt - Model summary
+3. epochs.txt - Training epochs data
+
+Training results  
+![acc](https://github.com/raddyp/BinarySemanticSegmentation-UNet_style/assets/150963154/b6808be1-faa8-40d7-8835-6b3c2b254fd3)
+![loss](https://github.com/raddyp/BinarySemanticSegmentation-UNet_style/assets/150963154/2f583826-4610-426e-9c99-d1f75aa6b605)
+
 
 Results:  
-The model as tested in the script produced mixed resutls as it is not extensively trained and tested fo rthis dataset.
-However there are some good results produced as show below. Teh shortcomigns in the results can be attributed to:
-1. Architecture nto fully customized for this dataset
+The model as tested in the script produced mixed resutls as it is not extensively trained and tested for this dataset.
+However there are some good results produced as shown below. The shortcomings in the results can be attributed to:
+1. Architecture not fully customized for this dataset
 2. Images have relatively poor quality
 3. Regions of interest are not substantially distinct form background in many images
-4. 
+
 Good segmentation predictions  
 ![res4](https://github.com/raddyp/BinarySemanticSegmentation-UNet_style/assets/150963154/67ec7b56-506b-431d-be0d-8a8206905ace)
 ![res3](https://github.com/raddyp/BinarySemanticSegmentation-UNet_style/assets/150963154/57d846f6-832b-4d21-b793-5f351ae5f7d4)

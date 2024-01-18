@@ -5,13 +5,13 @@ This is a simple implementation of a U-net style segmentation architecture as pe
 " by Ronneberger et al.
 
 This model was tested on the forest cover dataset as mentioned below.
-Some parameters and architecture has been slightly modified to suit this dataset.
+Some parameters and architecture have been slightly modified to suit this dataset.
 
-Dataset:
+Dataset:  
 A version of "DeepGlobe 2018: A Challenge to Parse the Earth Through Satellite Images" was obtained from kaggle here:
 https://www.kaggle.com/datasets/quadeer15sh/augmented-forest-segmentation
 
-Challenges:
+Challenges:  
 1. U-Net style architecture is computationally very expensive.
 2. Image size and number of examples need to be chosen carefully to be able to train on a given machine.
 3. For reliable training without crashing the OS with memory allocation errors and overrunning the RAM allocation, image size reduction is highly recommended.

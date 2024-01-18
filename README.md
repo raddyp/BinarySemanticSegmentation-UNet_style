@@ -18,41 +18,41 @@ Challenges:
 4. Batch size is also a major factor in managing GPU memory loads during training (lower the better).
 
 Code Description:
-1. Function: display 
+1. Function: display   
     To plot/display multiple images ina grid
-2. Function: preprocess_datafrom_folder 
+2. Function: preprocess_datafrom_folder   
     To read, resize, and vectorize data
-3. Function: read_data 
+3. Function: read_data   
     To read image & mask data from 'h5' file from directory
-4. Function: split_data 
+4. Function: split_data   
     To split image & mask data into train, validation & test sets
-5. Function: create_model 
+5. Function: create_model   
     Defines the entire U-Net style model
-6. Function: compute_metrics 
+6. Function: compute_metrics   
      To compute performance metric IoU
- 7. Function: visualize_plots
+ 7. Function: visualize_plots  
     To visualize training accuracy & loss plots
 
-Files:
+Files:  
 1. Semantic_segmentation.py - implementation of the U-Net style segemntation model
 2. acc.png - Training & validation accuracy plot
 3. loss.png - Training & validation loss plot
 4. model_sumamry.txt - Model summary
 5. epochs.txt - Training epochs data
 
-Results:
+Results:  
 The model as tested in the script produced mixed resutls as it is not extensively trained and tested fo rthis dataset.
 However there are some good results produced as show below. Teh shortcomigns in the results can be attributed to:
 1. Architecture nto fully customized for this dataset
 2. Images have relatively poor quality
 3. Regions of interest are not substantially distinct form background in many images
 4. 
-Good segmentation predictions
+Good segmentation predictions  
 ![res4](https://github.com/raddyp/BinarySemanticSegmentation-UNet_style/assets/150963154/67ec7b56-506b-431d-be0d-8a8206905ace)
 ![res3](https://github.com/raddyp/BinarySemanticSegmentation-UNet_style/assets/150963154/57d846f6-832b-4d21-b793-5f351ae5f7d4)
 ![res1](https://github.com/raddyp/BinarySemanticSegmentation-UNet_style/assets/150963154/ed6a9994-98f9-425e-94a4-cad3a7c94139)
 
-Bad segmentation predictions
+Bad segmentation predictions  
 ![res5](https://github.com/raddyp/BinarySemanticSegmentation-UNet_style/assets/150963154/773d61c2-73e2-4cef-9b7a-a27cea21cb02)
 ![res6](https://github.com/raddyp/BinarySemanticSegmentation-UNet_style/assets/150963154/117e4457-096d-475a-8333-41a24a41e86d)
 ![res7](https://github.com/raddyp/BinarySemanticSegmentation-UNet_style/assets/150963154/c401d6cb-d904-4af3-9786-c6ede245dc04)

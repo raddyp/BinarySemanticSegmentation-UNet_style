@@ -1,4 +1,4 @@
-**Binary Semantic Segmentation-UNet style**
+**Binary Semantic Segmentation-UNet style**  
 U-Net style Binary Semantic Segmentation model for Forest Cover Dataset
 
 This is a simple implementation of a U-net style segmentation architecture as per the "U-Net: Convolutional Networks for Biomedical Image Segmentation

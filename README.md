@@ -20,7 +20,7 @@ Challenges:
 Code Description:
 1. Function: display   
     To plot/display multiple images ina grid
-2. Function: preprocess_datafrom_folder   
+2. Function: preprocess_data_from_folder   
     To read, resize, and vectorize data
 3. Function: read_data   
     To read image & mask data from 'h5' file from directory
